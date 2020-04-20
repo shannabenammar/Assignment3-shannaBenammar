@@ -15,4 +15,8 @@ script:
 
 notifications:
   email: false
-
+  
+deploy:
+  - provider: heroku
+    api_key: 423bc40c-5439-4d03-b32b-2acc05f6dbe9
+    app: flask-travis-ci
