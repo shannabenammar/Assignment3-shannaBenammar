@@ -10,8 +10,8 @@ branches:
   - stable
 
 script:
-  - javac wordCount.java
-  - java wordCount < script.txt
+  - javac WordCount.java
+  - java WordCount < script.txt
 
 notifications:
   email: false
