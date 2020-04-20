@@ -10,8 +10,8 @@ branches:
   - stable
 
 script:
-  - javac SortInput.java
-  - java SortInput < input.txt
+  - javac wordCount.java
+  - java wordCount < script.txt
 
 notifications:
   email: false
