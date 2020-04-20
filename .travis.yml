@@ -11,7 +11,7 @@ branches:
 
 script:
   - javac WordCount.java
-  - java WordCount < script.txt
+  - java WordCount < Script.txt
 
 notifications:
   email: false
