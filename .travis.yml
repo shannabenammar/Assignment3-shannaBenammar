@@ -12,7 +12,8 @@ deploy:  &heroku
   - provider: heroku
     script: 'git remote add origin https://github.com/shannabenammar/Assignment3-shannaBenammar.git'
     script: 'git stash apply $stash_hash'
-    api_key: 423bc40c-5439-4d03-b32b-2acc05f6dbe9
     app: shannabenammar-a-10
+    api_key: 423bc40c-5439-4d03-b32b-2acc05f6dbe9
+   
     
 
